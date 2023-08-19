@@ -18,7 +18,6 @@
             rgba(221, 22, 224, 1) 11%,
             rgba(111, 22, 190, 1) 88.2%
         );
-
         height: 80px;
         width: 100%;
         position: fixed;
@@ -78,11 +77,16 @@
     h1 {
         font-family: "gerald";
     }
-    h1,h2, h4, p{
+    h1,
+    h2,
+    h4,
+    p {
         margin-left: 10px;
         margin-right: 10px;
     }
-
+    .presentacion {
+        display: flex;
+    }
     .boton {
         background-image: linear-gradient(
             108.7deg,
@@ -94,26 +98,22 @@
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         padding: 5px;
+        margin: 10px;
+        margin-left: 30px;
+        margin-bottom: 50px;
     }
 
-    /*icono arrow, pie de pagina*/
-    .fa-circle-up {
-        position: fixed;
-        right: 0.1em;
-        bottom: 0.1em;
-        width: 3.12em;
-        height: 3.12em;
-    }
     .presentacion-img {
         width: 100vw;
         background-color: rgb(189, 133, 241);
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     /*conocimiento*/
-    .conocimiento{
+    .conocimiento {
         background-color: blueviolet;
     }
     .contenedor-conocimiento {
@@ -132,19 +132,17 @@
     }
     /*frase*/
 
-
-
     /*Proyectos*/
-    .proyectos{
+    .proyectos {
         background-color: blueviolet;
     }
-    .contenedor-proyectos{
+    .contenedor-proyectos {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         max-width: 100vw;
     }
-    .proyecto-logo{
+    .proyecto-logo {
         width: 280px;
         height: 140px;
         margin: 10px 5px;
@@ -152,14 +150,13 @@
         border-radius: 20px;
         border: 2px solid grey;
     }
-    .proyecto-logo, img{
+    .proyecto-logo,
+    img {
         width: 100px;
     }
-    }
+}
 
-
-
-/*@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .navlabel {
         display: block;
         cursor: pointer;
@@ -185,4 +182,12 @@
     .nav__input:checked + .nav__menu {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
+}
+ /*icono arrow, pie de pagina*/
+.fa-circle-up {
+    position: fixed;
+    right: 0.1em;
+    bottom: 0.1em;
+    width: 3.12em;
+    height: 3.12em;
 }
