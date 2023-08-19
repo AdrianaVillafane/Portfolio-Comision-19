@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "gerald";
+    src: url("./font/Thewitcher-jnOj.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: 0;
+    text-decoration: none;
+}
+/*barra de navegacion*/
+@media screen and (min-width: 320px) {
+    .nav {
+        background-image: linear-gradient(
+            108.7deg,
+            rgba(221, 22, 224, 1) 11%,
+            rgba(111, 22, 190, 1) 88.2%
+        );
+
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    .nav__container {
+        display: flex;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav__logo {
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    .nav__menu {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 2em;
+    }
+
+    .nav__item {
+        color: #fff;
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    .nav__item::after {
+        content: "";
+        display: inline-block;
+        background: #fff;
+        width: 90%;
+        margin-top: 3px;
+        clip-path: var(--clippy);
+        transition: clip-path 0.3s;
+    }
+
+    .nav__item:hover {
+        --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .navlabel,
+    .nav__input {
+        display: none;
+    }
+    /*main*/
+    main {
+        margin-top: 100px;
+        font-family: "Lato", sans-serif;
+        text-align: justify;
+    }
+    h1 {
+        font-family: "gerald";
+    }
+    h1,h2, h4, p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .boton {
+        background-image: linear-gradient(
+            108.7deg,
+            rgba(221, 22, 224, 1) 11%,
+            rgba(111, 22, 190, 1) 88.2%
+        );
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        padding: 5px;
+    }
+
+    /*icono arrow, pie de pagina*/
+    .fa-circle-up {
+        position: fixed;
+        right: 0.1em;
+        bottom: 0.1em;
+        width: 3.12em;
+        height: 3.12em;
+    }
+    .presentacion-img {
+        width: 100vw;
+        background-color: rgb(189, 133, 241);
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /*conocimiento*/
+    .conocimiento{
+        background-color: blueviolet;
+    }
+    .contenedor-conocimiento {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100vw;
+    }
+    .logo-conocimiento {
+        width: 280px;
+        height: 250px;
+        margin: 10px 5px;
+        background-color: red;
+        border-radius: 20px;
+        border: 2px solid grey;
+    }
+    /*frase*/
+
+
+
+    /*Proyectos*/
+    .proyectos{
+        background-color: blueviolet;
+    }
+    .contenedor-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100vw;
+    }
+    .proyecto-logo{
+        width: 280px;
+        height: 140px;
+        margin: 10px 5px;
+        background-color: red;
+        border-radius: 20px;
+        border: 2px solid grey;
+    }
+    .proyecto-logo, img{
+        width: 100px;
+    }
+    }
+
+
+
+/*@media screen and (max-width: 900px) {
+    .navlabel {
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .nav__menu {
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background-color: #66a6ff;
+        width: 100vw;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: clip-path 1s ease-in-out;
+    }
+
+    .nav__input:checked + .nav__menu {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
