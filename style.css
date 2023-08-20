@@ -105,12 +105,20 @@
 
     .presentacion-img {
         width: 100vw;
-        background-color: rgb(189, 133, 241);
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #edna {
+        object-fit: cover;
+        border-radius: 20px;
+        border: 2px solid grey;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        margin-right: 5px;
     }
     /*conocimiento*/
     .conocimiento {
@@ -174,7 +182,8 @@
         font-size: 1.5rem;
         padding-top: 10px;
     }
-    li, a{
+    li,
+    a {
         color: black;
     }
     .form-contacto {
@@ -211,6 +220,17 @@
 
     .nav__input:checked + .nav__menu {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    /*formulario*/
+    .contacto-redes,
+    .contacto-form {
+        max-width: 45%;
+    }
+}
+@media screen and (min-width: 425px) {
+    .contacto-redes,
+    .contacto-form {
+        max-width: 98%;
     }
 }
 /*icono arrow, pie de pagina*/
