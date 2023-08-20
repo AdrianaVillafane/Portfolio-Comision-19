@@ -165,11 +165,17 @@
         border: 2px solid grey;
         border-radius: 10px;
         margin: 10px;
+        min-height: 250px;
     }
     .contacto-red,
     li {
         list-style: none;
         padding: 5px;
+        font-size: 1.5rem;
+        padding-top: 10px;
+    }
+    li, a{
+        color: black;
     }
     .form-contacto {
         width: 98%;
