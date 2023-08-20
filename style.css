@@ -154,6 +154,30 @@
     img {
         width: 100px;
     }
+
+    .contacto-redes,
+    .contacto-form {
+        background-color: palevioletred;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .contacto-red,
+    li {
+        list-style: none;
+        padding: 5px;
+    }
+    .form-contacto {
+        width: 98%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -183,7 +207,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 }
- /*icono arrow, pie de pagina*/
+/*icono arrow, pie de pagina*/
 .fa-circle-up {
     position: fixed;
     right: 0.1em;
