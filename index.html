@@ -89,33 +89,33 @@
       <div class="contenedor-conocimiento">
         <div class="logo-conocimiento">
           <figure>
-           <img src="./img/html-5.png" alt="logo html-5">
+           <img src="./img/html-5.png" class="logo" alt="logo html-5">
            
           </figure>
         </div>
         <div class="logo-conocimiento">
           <figure>
-           <img src="./img/css-3.png" alt="logo css-3">
+           <img src="./img/css-3.png" class="logo" alt="logo css-3">
           </figure>
         </div>
         <div class="logo-conocimiento">
           <figure>
-           <img src="./img/js.png" alt="logo javascript">
+           <img src="./img/js.png" class="logo" alt="logo javascript">
           </figure>
         </div>
         <div class="logo-conocimiento">
           <figure>
-          <img src="./img/github.png" alt="logo de github">
+          <img src="./img/github.png" class="logo" alt="logo de github">
           </figure>
         </div>
         <div class="logo-conocimiento">
           <figure>
-           <img src="./img/pngegg.png" alt="logo de sass">
+           <img src="./img/pngegg.png" class="logo" alt="logo de sass">
           </figure>
         </div>
         <div class="logo-conocimiento">
           <figure>
-          <img src="./img/pngreact.png" alt="logo react">
+          <img src="./img/pngreact.png" class="logo" alt="logo react">
           </figure>
         </div>
       </div>
@@ -187,7 +187,7 @@
     </section>
 
     <section class="section-contacto">
-      <div class="contacto-container">
+      <div class="contacto-contenedor">
         <div class="contacto-redes">
           <a name="contactame">
             <h2 class="contacto-red">
@@ -223,15 +223,19 @@
             Escribime
           </h2>
           <form action="" class="form-contacto">
-            <label for="nombre-usuario">Nombre</label>
+            <label for="nombre-usuario" class="form-grupo">Nombre</label>
             <input id="nombre-usuario" type="text" placeholder="Anna" required>
-            <label for="apellido-usuario">Apellido</label>
+
+            <label for="apellido-usuario" class="form-grupo">Apellido</label>
             <input id="apellido-usuario" type="text" placeholder="Lopez" required>
-            <label for="mail-usuario">E-mail</label>
+
+            <label for="mail-usuario"  class="form-grupo">E-mail</label>
             <input id="mail-usuario" type="email" placeholder="anna@lovelace.com" required>
-            <label for="mensaje-usuario">Mensaje</label>
+
+            <label for="mensaje-usuario"  class="form-grupo">Mensaje</label>
             <textarea id="mensaje-usuario" placeholder="Escriba aca su mensaje" maxlength="280"></textarea>
-            <label for="input-submit"></label>
+
+            <label for="input-submit" class="form-grupo"></label>
             <input id="input-submit" type="submit">
           </form>
         </div>
