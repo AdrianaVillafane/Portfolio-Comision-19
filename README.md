@@ -1,7 +1,7 @@
 # Portfolio-Comision-19
 # ADA-2023
 
-![Empezando](img/images.png)
+![Empezando](./img/empezando.jpg)
 <sub>Empezando<sub>
 ## Portfolio 2023
  Portafolio con trabajos propios, que se ira actualizando durante el curso, con diferentes proyectos, con diferentes codigos.
@@ -20,7 +20,7 @@ Este Proyecto consta _(actualmente)_ de una landing page, en una sola rama, es t
 - [X] HTML5
 - [X] CSS3
 
-![Dias sin dormir](img/Mafalda_mordo.webp)
+![Dias sin dormir](./img/dias-sin-dormir.jpg)
 
 <sub>Dias sin dormir<sub>
 
@@ -30,8 +30,11 @@ Este Proyecto consta _(actualmente)_ de una landing page, en una sola rama, es t
 * A Nicolas Bogado, un maquetador perfeccionista, el cual gusta de enseñar todo lo que sabe, no solo con el ejemplo sino buscandonos información, para evacuar cualquier duda que podamos tener.
 * A Mel Moreno, LA MEJOR TUTORA, por la paciencia, y por estar siempre, hasta cuando no estaba en su comision.
 
-![Pero estoy orgullosa de cada paso](img/720.webp)
+![Pero estoy orgullosa de cada paso](./img/style-edna.jpg)
 
 <sub>Pero estoy **orgullosa** de cada paso<sub>
 
+
+
+![Feliz de lo logrado](./img/frase-edna.jpg)
 ## Con Mucho amor e infinitamente agradecida Adri
