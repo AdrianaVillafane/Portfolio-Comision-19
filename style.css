@@ -93,22 +93,23 @@ body {
     .nav__input {
         display: none;
     }
-    /*main*/
-    main {
-        margin-top: 100px;
-        font-family: "Lato", sans-serif;
-        text-align: justify;
-    }
-    h1 {
-        font-family: "gerald";
-    }
-    h1,
-    h2,
-    h4,
-    p {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+}
+/*main*/
+main {
+    margin-top: 100px;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+}
+h1 {
+    font-family: "gerald";
+}
+h1,
+h2,
+h4,
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .presentacion {
     display: flex;
@@ -152,7 +153,9 @@ body {
 .conocimiento {
     background-color: #27374d;
 }
-.conocimiento, h2 , p{
+.conocimiento,
+h2,
+p {
     padding: 20px;
 }
 .contenedor-conocimiento {
